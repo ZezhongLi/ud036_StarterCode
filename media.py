@@ -1,9 +1,7 @@
 class Movie():
     """The movie class"""
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
-        self.title = movie_title
-        self.storyline = movie_storyline
-        self.poster_image_url = poster_image
-        self.trailer_youtube_url = trailer_youtube
-
-
+    def __init__(self, title, storyline, poster_url, trailer_url):
+        self.title = title
+        self.storyline = storyline
+        self.poster_image_url = poster_url
+        self.trailer_youtube_url = trailer_url
