@@ -1,6 +1,14 @@
+'''
+This script movie information from data.txt,
+then form movie model array for fresh_tomatoes module.
+'''
 import media
-import fresh_tomatoes
-
+import fresh_tomatoes # This module generate html page using movie models.
+'''
+    1. read movie count from data.txt
+    2. using for loop read movie information to form the movie model array
+    3. using fresh_tomatoes to generate html pages and open it with default broswer
+'''
 filepath = 'data.txt'
 fp = open(filepath)
 movie_count = fp.readline()
